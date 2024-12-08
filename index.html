@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Traffic Jam Puzzle</title>
+  <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+  <div id="game">
+    <div id="header">
+      <h1>🚒 Traffic Jam Puzzle 🛺</h1>
+      <p>Test your strategy by moving the cars to their respective sides!</p>
+    </div>
+    <div id="input-container">
+      <div class="input-box">
+        <h2>🚦 Ready to Start? 🚦</h2>
+        <p>Enter the number of cars for each side:</p>
+        <input type="number" id="car-count" placeholder="Number of Cars" min="1">
+        <button id="start-game">Start Game</button>
+      </div>
+    </div>
+
+    <div id="board-container" style="display: none;">
+      <div id="instructions">
+        <p><strong>Rules:</strong> 🚒 Cars move →, 🛺 Cars move ←. Reach the opposite side to win!</p>
+      </div>
+      <div id="board"></div>
+      <div class="button-container">
+        <button id="reset">Reset Game</button>
+        <button id="change-count">Change Car Count</button>
+      </div>
+    </div>
+  </div>
+
+  
+  
+  <script src="script4.js"></script>
+</body>
+</html>
